@@ -18,7 +18,8 @@
   "homepage": "https://github.com/rwashi690/social_network_api#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "mongoose": "^6.2.4"
+    "mongoose": "^6.2.4",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "dotenv": "^16.0.0",

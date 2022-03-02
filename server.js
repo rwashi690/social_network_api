@@ -17,6 +17,9 @@ application.use(express.json());
 //set up routes
 const userRoutes = require('./routes/users');
 const thoughtRoutes = require('./routes/thoughts');
+application.use('/users', userRoutes);
+application.use('/thoughts', thoughtRoutes);
+
 
 //Start server locally
 const PORT = 3001;
